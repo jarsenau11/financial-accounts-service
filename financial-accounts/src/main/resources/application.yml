@@ -1,0 +1,19 @@
+spring:
+    data:
+        mongodb:
+            uri: URI_GOES_HERE
+            database: DB_GOES_HERE
+    output:
+        ansi:
+            enabled: ALWAYS
+
+javax:
+    net:
+        ssl:
+            trustStore: /tmp/certs/rds-truststore.jks
+            trustStorePassword: PW_GOES_HERE
+
+logging:
+    level:
+        com:
+            skillstorm: debug
